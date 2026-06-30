@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Επεξεργασία"
+        android:textColor="@color/text_main"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Άλλαξε το όνομα ή διάγραψε τη συνήθεια"
+        android:textColor="@color/text_muted"
+        android:textSize="14sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/surface_white">
+
+        <EditText
+            android:id="@+id/etEditHabitName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Όνομα συνήθειας"
+            android:padding="16dp"
+            android:textColor="@color/text_main"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSaveHabit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Αποθήκευση Αλλαγών"
+        android:textSize="16sp"
+        app:backgroundTint="@color/color_primary"
+        app:cornerRadius="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDeleteHabit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="24dp"
+        android:text="Διαγραφή Συνήθειας"
+        android:textColor="#EF4444"
+        android:textSize="16sp"
+        app:backgroundTint="#FEF2F2"
+        app:cornerRadius="12dp"
+        app:strokeColor="#EF4444"
+        app:strokeWidth="1dp" />
+
+</LinearLayout>

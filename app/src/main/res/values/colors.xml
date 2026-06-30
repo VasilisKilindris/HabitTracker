@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_light">#F0F0F0</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="text_main">#1A1D20</color>
+    <color name="text_muted">#717D8A</color>
+    <color name="accent_streak">#4ADE80</color>
+    <color name="accent_streak_light">#E6FBF0</color>
+    <color name="color_primary">#FF5722</color>
+</resources>

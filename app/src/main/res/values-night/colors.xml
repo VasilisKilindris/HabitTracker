@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_light">#121212</color>
+    <color name="surface_white">#1E1E1E</color>
+    <color name="text_main">#FFFFFF</color>
+    <color name="text_muted">#9CA3AF</color>
+    <color name="color_primary">#FF5722</color>
+    <color name="accent_streak">#4ADE80</color>
+    <color name="accent_streak_light">#14532D</color>
+</resources>

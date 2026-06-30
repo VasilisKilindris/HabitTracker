@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+    <string-array name="productivity_quotes">
+        <item>Μικρά βήματα κάθε μέρα. 🌱</item>
+        <item>Η συνέπεια κερδίζει την ταχύτητα. 🐢</item>
+        <item>Μην σταματάς, απλώς προχώρα σταθερά.</item>
+        <item>Γίνε 1% καλύτερος από χθες. 📊</item>
+        <item>Η πειθαρχία χτίζει το μέλλον. 🏛️</item>
+        <item>Κάθε check είναι μια μικρή νίκη. 🏆</item>
+    </string-array>
+</resources>
