@@ -70,6 +70,3 @@ To run the project locally on your machine, follow these steps:
 * Connect a physical Android device via USB (with USB Debugging enabled) or start an Android Emulator (API Level 24 or higher).
 * Click the green **Run** button (▶) in the top toolbar or press `Shift + F10`.
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YourUsername/Testudo.git](https://github.com/YourUsername/Testudo.git)
