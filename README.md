@@ -43,7 +43,8 @@ The application follows a **Layered Architecture (3-Tier)**, ensuring a clean, s
 
 ---
 
-## 🎥 Demo
+## 📱 App Demo
+[![Watch the demo video](https://img.youtube.com/vi/M0ZQTxEmUf0/maxresdefault.jpg)](https://youtube.com/shorts/M0ZQTxEmUf0?feature=share)
 
 
 
